@@ -1,0 +1,3 @@
+name = "og-link"
+main = "src/worker.ts"
+compatibility_date = "2023-06-28"
