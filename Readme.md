@@ -6,7 +6,7 @@ Generate Open Graph images with [satori](https://github.com/vercel/satori) and a
 
 ## Usage
 
-The worker expects a base64 and urlencoded JSON payload:
+The worker expects a [base64url](https://en.wikipedia.org/wiki/Base64#URL_applications) JSON payload:
 
 ```
 {
