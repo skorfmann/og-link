@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default (text: string) => (
+export default (text: string, domain: string) => (
   <div
   style={{
     width: '1200px',
@@ -47,7 +47,7 @@ export default (text: string) => (
       bottom: '20px',
     }}
   >
-    www.skorfmann.com
+    {domain}
   </p>
 </div>
 );
